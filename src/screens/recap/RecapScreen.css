@@ -1,0 +1,22 @@
+.title-recap {
+  text-align: left;
+  font: normal normal bold 32px/38px Roboto;
+  letter-spacing: 0px;
+  color: #797979;
+  opacity: 1;
+}
+
+.recap-address {
+  padding: 20px;
+}
+
+.recap-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}

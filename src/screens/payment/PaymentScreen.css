@@ -1,0 +1,99 @@
+.main-pay-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.left-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 6px #f1888129;
+  border-radius: 10px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.right-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 6px #f1888129;
+  border-radius: 10px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.input-post-city {
+  background-color: #f1888129;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+  width: 130px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal normal 25px/30px Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-address {
+  background-color: #f1888129;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+  width: 400px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal normal 25px/30px Roboto;
+}
+
+.input-date {
+  background-color: #f1888129;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+  width: 60px;
+  margin-right: 10px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal normal 25px/30px Roboto;
+}
+
+.input-cvv {
+  background-color: #f1888129;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+  width: 80px;
+  margin-right: 10px;
+  height: 40px;
+  padding: 5px;
+  font: normal normal normal 25px/30px Roboto;
+}
+.total {
+  text-align: left;
+  font: normal normal bold 25px/30px Roboto;
+  letter-spacing: 0px;
+  color: #797979;
+  opacity: 1;
+}
+
+.final-price {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+}
